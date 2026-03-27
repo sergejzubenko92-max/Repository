@@ -1,0 +1,93 @@
+body {
+font-family: Arial, sans-serif;
+background: #f4f6f9;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+}
+
+.card {
+width: 420px;
+background: #ffffff;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+label {
+display: block;
+margin-top: 12px;
+font-weight: bold;
+}
+
+input {
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border-radius: 6px;
+border: 1px solid #ccc;
+}
+
+.buttons {
+margin-top: 20px;
+display: flex;
+justify-content: space-between;
+gap: 10px;
+}
+
+button {
+flex: 1;
+padding: 10px;
+border: none;
+border-radius: 6px;
+background: #2d6cdf;
+color: white;
+cursor: pointer;
+}
+
+button:hover {
+background: #1d50c0;
+}
+
+.books {
+margin-top: 25px;
+}
+
+.books h2 {
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+.books ul {
+padding-left: 18px;
+}
+
+.books li {
+margin-bottom: 6px;
+}
+.profile-info p {
+margin: 5px 0;
+}
+
+table {
+width: 100%;
+margin-top: 15px;
+border-collapse: collapse;
+}
+
+th, td {
+border: 1px solid #ccc;
+padding: 8px;
+text-align: center;
+}
+
+th {
+background: #f0f0f0;
+}
